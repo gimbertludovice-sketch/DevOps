@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run C Program (No Debug)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}\\array_operations.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:\\msys64\\mingw64\\bin\\gdb.exe",
+            "preLaunchTask": "Build C Program",
+            "logging": {
+                "moduleLoad": false,
+                "trace": false
+            }
+        }
+    ]
+}
